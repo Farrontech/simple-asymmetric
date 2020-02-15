@@ -4,6 +4,13 @@
  * WARNING !!! DO NOT USE THIS CODE FOR YOUR APP!
  * THIS IS JUST AN EXAMPLE OF ASYMMETRIC ENCRYPTION.
  * REAL ASYMMETRIC ENCRYPTION NEED A HUGE RANDOM PRIVATE KEY/PUBLIC KEY
+ *
+ * Command line usage:
+ *  php index.php
+ *
+ * Server usage:
+ *  php -S localhost:8081
+ * open url http://localhost:8081/
  */
 
 $priv_key = [ // Private key keep secret
